@@ -1,6 +1,7 @@
-#include <time.h>
+#include "abBleGatewaySdk.h"
+char *Version=VERSION;
 char *get_version()
 {
-	char   *version="v0.0.0";
+	char   *version=VERSION;
 	return version;
 }
